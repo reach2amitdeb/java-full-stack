@@ -11,6 +11,10 @@ public class Dog {
 		weight = 42;
 	}
 	
+	public Dog(int weight) {
+		this.weight = weight;
+	}
+	
 	//syntax declaring methods
 	//<modifier>* <return-type> name(<argument> *){
 	//<statement> *
@@ -25,5 +29,13 @@ public class Dog {
 			weight = newWeight;
 		}
 		
+		
 	}
+
+	@Override
+	public String toString() {
+		return "Dog [weight=" + weight + "]";
+	}
+	
+
 }
