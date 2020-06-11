@@ -7,6 +7,10 @@ public class Dog {
 
 	private int weight;
 	
+	public Dog() {
+		weight = 42;
+	}
+	
 	//syntax declaring methods
 	//<modifier>* <return-type> name(<argument> *){
 	//<statement> *
